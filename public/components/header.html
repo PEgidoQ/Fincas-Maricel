@@ -1,0 +1,163 @@
+<header class="site-header" id="site-header" role="banner">
+  <div class="site-header__inner">
+    <div class="site-header__left">
+      <a href="index.html" class="brand-mark" aria-label="Fincas Maricel - Inicio">
+        <span class="brand-mark__name">FINCAS</span>
+        <span class="brand-mark__name">MARICEL</span>
+        <span class="brand-mark__divider" aria-hidden="true"></span>
+        <span class="brand-mark__since">SINCE 1979</span>
+      </a>
+
+      <button
+        type="button"
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-label="Abrir menú de navegación"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="index.html" class="main-nav__link" data-nav="inicio" data-i18n="nav_home">Home</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="nosotros.html" class="main-nav__link" data-nav="nosotros" data-i18n="nav_nosotros">Nosotros</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="venda.html" class="main-nav__link" data-nav="venda" data-i18n="nav_venda">Venda</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="compre.html" class="main-nav__link" data-nav="compre" data-i18n="nav_compre">Compre</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="alquile.html" class="main-nav__link" data-nav="alquile" data-i18n="nav_alquile">Alquile</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="contacto.html" class="main-nav__link" data-nav="contacto" data-i18n="nav_contacto">Contacto</a>
+          </li>
+        </ul>
+
+        <button
+          type="button"
+          class="sticky-drawer-btn"
+          aria-label="Abrir menú rápido"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+
+    <div class="site-header__right">
+      <div class="lang-switcher" id="lang-switcher">
+        <button
+          type="button"
+          class="lang-switcher__btn"
+          id="lang-switcher-btn"
+          aria-haspopup="listbox"
+          aria-expanded="false"
+          aria-label="Seleccionar idioma"
+        >
+          <span class="lang-switcher__flag" id="lang-current-flag" aria-hidden="true">
+            <svg viewBox="0 0 24 16" width="20" height="14">
+              <rect width="24" height="16" fill="#AA151B" />
+              <rect y="4" width="24" height="8" fill="#F1BF00" />
+            </svg>
+          </span>
+          <span class="lang-switcher__code" id="lang-current-code">ES</span>
+          <svg class="lang-switcher__chevron" viewBox="0 0 12 8" width="10" height="6" aria-hidden="true">
+            <path d="M1 1.5L6 6.5L11 1.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+
+        <ul class="lang-switcher__menu" id="lang-switcher-menu" role="listbox" aria-label="Idiomas disponibles">
+          <li role="option" aria-selected="false">
+            <button type="button" class="lang-switcher__option" data-lang="CA">
+              <span class="lang-switcher__flag" aria-hidden="true">
+                <svg viewBox="0 0 24 16" width="20" height="14">
+                  <rect width="24" height="16" fill="#FCDD09"></rect>
+                  <rect y="2" width="24" height="2" fill="#DA121A"></rect>
+                  <rect y="6" width="24" height="2" fill="#DA121A"></rect>
+                  <rect y="10" width="24" height="2" fill="#DA121A"></rect>
+                  <rect y="14" width="24" height="2" fill="#DA121A"></rect>
+                </svg>
+              </span>
+              <span class="lang-switcher__label">Català</span>
+            </button>
+          </li>
+          <li role="option" aria-selected="false">
+            <button type="button" class="lang-switcher__option" data-lang="ZH">
+              <span class="lang-switcher__flag" aria-hidden="true">
+                <svg viewBox="0 0 24 16" width="20" height="14">
+                  <rect width="24" height="16" fill="#DE2910"></rect>
+                  <polygon points="5,2.5 5.6,4.3 7.5,4.3 6,5.4 6.5,7.2 5,6.1 3.5,7.2 4,5.4 2.5,4.3 4.4,4.3" fill="#FFDE00"></polygon>
+                  <circle cx="9.2" cy="2.5" r="0.6" fill="#FFDE00"></circle>
+                  <circle cx="10.4" cy="4" r="0.6" fill="#FFDE00"></circle>
+                  <circle cx="10.4" cy="6" r="0.6" fill="#FFDE00"></circle>
+                  <circle cx="9.2" cy="7.5" r="0.6" fill="#FFDE00"></circle>
+                </svg>
+              </span>
+              <span class="lang-switcher__label">&#31616;&#20307;&#20013;&#25991;</span>
+            </button>
+          </li>
+          <li role="option" aria-selected="false">
+            <button type="button" class="lang-switcher__option" data-lang="EN">
+              <span class="lang-switcher__flag" aria-hidden="true">
+                <svg viewBox="0 0 24 16" width="20" height="14">
+                  <rect width="24" height="16" fill="#012169"></rect>
+                  <path d="M0 0L24 16M24 0L0 16" stroke="#FFFFFF" stroke-width="3"></path>
+                  <path d="M0 0L24 16M24 0L0 16" stroke="#C8102E" stroke-width="1.4"></path>
+                  <path d="M12 0V16M0 8H24" stroke="#FFFFFF" stroke-width="5"></path>
+                  <path d="M12 0V16M0 8H24" stroke="#C8102E" stroke-width="2.6"></path>
+                </svg>
+              </span>
+              <span class="lang-switcher__label">English</span>
+            </button>
+          </li>
+          <li role="option" aria-selected="false">
+            <button type="button" class="lang-switcher__option" data-lang="FR">
+              <span class="lang-switcher__flag" aria-hidden="true">
+                <svg viewBox="0 0 24 16" width="20" height="14">
+                  <rect width="8" height="16" fill="#002395"></rect>
+                  <rect x="8" width="8" height="16" fill="#FFFFFF"></rect>
+                  <rect x="16" width="8" height="16" fill="#ED2939"></rect>
+                </svg>
+              </span>
+              <span class="lang-switcher__label">Français</span>
+            </button>
+          </li>
+          <li role="option" aria-selected="false">
+            <button type="button" class="lang-switcher__option" data-lang="RU">
+              <span class="lang-switcher__flag" aria-hidden="true">
+                <svg viewBox="0 0 24 16" width="20" height="14">
+                  <rect width="24" height="5.33" fill="#FFFFFF"></rect>
+                  <rect y="5.33" width="24" height="5.34" fill="#0039A6"></rect>
+                  <rect y="10.67" width="24" height="5.33" fill="#D52B1E"></rect>
+                </svg>
+              </span>
+              <span class="lang-switcher__label">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</span>
+            </button>
+          </li>
+          <li role="option" aria-selected="true">
+            <button type="button" class="lang-switcher__option is-selected" data-lang="ES">
+              <span class="lang-switcher__flag" aria-hidden="true">
+                <svg viewBox="0 0 24 16" width="20" height="14">
+                  <rect width="24" height="16" fill="#AA151B"></rect>
+                  <rect y="4" width="24" height="8" fill="#F1BF00"></rect>
+                </svg>
+              </span>
+              <span class="lang-switcher__label">Español</span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+

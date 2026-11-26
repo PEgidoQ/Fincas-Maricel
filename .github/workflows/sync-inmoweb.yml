@@ -1,0 +1,42 @@
+name: Sincronizar Inmoweb XML
+
+on:
+  schedule:
+    # Ejecuta cada 30 minutos
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generar páginas multi-idioma y sincronizar XML de Inmoweb
+        env:
+          INMOWEB_FEED_URL: ${{ secrets.INMOWEB_FEED_URL }}
+        run: |
+          node scripts/build-i18n-pages.mjs
+          node scripts/sync-inmoweb.mjs
+
+      - name: Guardar cambios si hubo actualizaciones
+        run: |
+          if [ -n "$(git status --porcelain public)" ]; then
+            git config user.name "inmoweb-sync-bot"
+            git config user.email "bot@fincasmaricel.com"
+            git add public
+            git commit -m "chore(sync): actualizar propiedades, idiomas y SEO desde XML Inmoweb"
+            git push
+          else
+            echo "Sin cambios en las propiedades."
+          fi
+

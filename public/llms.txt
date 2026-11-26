@@ -1,0 +1,32 @@
+# Fincas Maricel · Inmobiliaria en Sitges desde 1979
+
+> Agencia inmobiliaria de referencia en Sitges y la comarca del Garraf (Barcelona), especializada en compraventa, alquiler y valoración de viviendas de alto standing, villas con vistas al mar, áticos, pisos exclusivos y locales comerciales desde 1979.
+
+## Datos Corporativos y Autoridad (E-E-A-T)
+- **Razón social:** Fincas Maricel, S.L. (NIF: ESB08933012)
+- **Fundación:** 1979 (+45 años de trayectoria en Sitges)
+- **Acreditaciones oficiales:** Miembro API nº 4120 · Registro de Agentes Inmobiliarios de Cataluña (AICAT) nº 13671 · Sello de Calidad Fotocasa 2026
+- **Dirección:** Plaça Cap de la Vila, 2, 08870 Sitges, Barcelona, España
+- **Teléfono:** +34 938 94 32 47
+- **Correo electrónico:** comercial@fincasmaricel.com
+- **Ámbito geográfico:** Sitges (Centro, Vinyet, Terramar, La Plana, Parc de Mar, Vallpineda, Quint Mar, Aiguadolç, Garraf) y alrededores (Sant Pere de Ribes, Vilanova i la Geltrú, Calafell).
+
+## Secciones Principales (Español)
+- [Inicio](https://www.fincasmaricel.com/): Presentación, selección destacada de propiedades en Sitges y servicios.
+- [Propiedades en Venta](https://www.fincasmaricel.com/compre.html): Catálogo actualizado de casas, villas, áticos y pisos en venta en Sitges.
+- [Propiedades en Alquiler](https://www.fincasmaricel.com/alquile.html): Pisos y locales comerciales en alquiler en Sitges.
+- [Venda su Propiedad](https://www.fincasmaricel.com/venda.html): Valoración gratuita y asesoramiento integral para propietarios.
+- [Sobre Nosotros](https://www.fincasmaricel.com/nosotros.html): Historia desde 1979, equipo, valores y reseñas de clientes.
+- [Contacto](https://www.fincasmaricel.com/contacto.html): Formulario de consulta, teléfono directo y ubicación en Google Maps.
+
+## Versiones Multi-idioma
+- Català: https://www.fincasmaricel.com/cat/
+- English: https://www.fincasmaricel.com/en/
+- Français: https://www.fincasmaricel.com/fr/
+- 简体中文: https://www.fincasmaricel.com/zh/
+- Русский: https://www.fincasmaricel.com/ru/
+
+## Catálogo Estructurado
+- Feed JSON de propiedades sincronizado con Inmoweb: https://www.fincasmaricel.com/data/properties.json
+- Sitemap XML completo: https://www.fincasmaricel.com/sitemap.xml
+

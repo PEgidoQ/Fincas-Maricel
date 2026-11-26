@@ -1,0 +1,29 @@
+# robots.txt — Fincas Maricel (Sitges, Barcelona)
+User-agent: *
+Allow: /
+
+# Motores de IA / Search Generative Experience (AI SEO / GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Evitar indexación de scripts internos o plantillas parciales
+Disallow: /components/
+Disallow: /send-mail.php
+
+Sitemap: https://www.fincasmaricel.com/sitemap.xml
+

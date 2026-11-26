@@ -1,0 +1,16 @@
+{
+  "name": "fincas-maricel-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web corporativa de Fincas Maricel con sincronización XML de Inmoweb",
+  "scripts": {
+    "sync": "node scripts/sync-inmoweb.mjs",
+    "build:i18n": "node scripts/build-i18n-pages.mjs",
+    "build": "node scripts/build-i18n-pages.mjs && node scripts/sync-inmoweb.mjs",
+    "dev": "npx serve public"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
